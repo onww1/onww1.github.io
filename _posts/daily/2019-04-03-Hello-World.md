@@ -1,7 +1,16 @@
 ---
 layout: article
 title: Hello, world!
-tags: TeXt Blog
+permalink: /daily/greeting
+key: algorithm-algorithm
+aside:
+  toc: true
+sidebar:
+  nav: daily
+
+license: false
+tags: Daily
+show_author_profile: true
 article_header:
   type: overlay
   theme: dark
