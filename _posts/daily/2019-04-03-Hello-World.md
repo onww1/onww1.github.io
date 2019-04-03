@@ -3,14 +3,12 @@ layout: article
 title: Hello, world!
 permalink: /daily/greeting
 key: algorithm-algorithm
-aside:
-  toc: true
-sidebar:
-  nav: daily
-
-license: false
 tags: Daily
-show_author_profile: true
+
+header:
+  theme: dark
+  background: 'linear-gradient(135deg, rgba(34, 139, 87, .7), rgba(139, 34, 139, .7))'
+
 article_header:
   type: overlay
   theme: dark
@@ -18,6 +16,13 @@ article_header:
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: /assets/images/post/background1.jpg
+
+aside:
+  toc: true
+sidebar:
+  nav: daily
+license: false
+show_author_profile: true
 ---
 
 안녕하세요. Mochalatte입니다.
