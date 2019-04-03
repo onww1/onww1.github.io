@@ -8,11 +8,7 @@
 <meta property="og:locale" content="{{ site.locale }}">
 <meta property="og:type" content="article">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.image.feature %}
-<meta name="og:image" content="{{ site.url }}/assets/images/{{ page.image.feature }}">
-{% else %}
-<meta name="og:image" content="{% if page.image.thumb %}{{ site.url }}/assets/images/{{ page.image.thumb }}{% else %}{{ site.url }}/assets/images/{{ site.logo }}{% endif %}">
-{% endif %}
+<meta property="og:image" content="{{ site.url }}/assets/images/og-image.png">
 
 {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
