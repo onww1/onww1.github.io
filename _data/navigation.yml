@@ -1,22 +1,5 @@
 header:
   - titles:
-      en      : &EN       Archive
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
-    url: /archive.html
-
-  - titles:
       en      : &EN       Daily
       en-GB   : *EN
       en-US   : *EN
@@ -29,12 +12,12 @@ header:
       zh-Hant : &ZH_HANT  關於
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       일상
+      ko      : &KO       일상👨🏻‍💻
       ko-KR   : *KO
     url: /daily/greeting
 
   - titles:
-      en      : &EN       Machine Learning
+      en      : &EN       TIL
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -46,12 +29,12 @@ header:
       zh-Hant : &ZH_HANT  關於
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       머신러닝
+      ko      : &KO       TIL✏️
       ko-KR   : *KO
     url: /machine-learning/machine-learning
 
   - titles:
-      en      : &EN       data-structure
+      en      : &EN       Algorithm
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -63,26 +46,9 @@ header:
       zh-Hant : &ZH_HANT  關於
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       자료구조
+      ko      : &KO       알고리즘🎓
       ko-KR   : *KO
-    url: /data-structure/data-structure 
-
-  - titles:
-      en      : &EN       algorithm
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       알고리즘
-      ko-KR   : *KO
-    url: /algorithm/algorithm
+    url: /algorithm/algorithm/algorithm
 
   - titles:
       en      : &EN       PS
@@ -97,24 +63,97 @@ header:
       zh-Hant : &ZH_HANT  關於
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       PS
+      ko      : &KO       PS🤔
       ko-KR   : *KO
     url: /problem-solving/problem-solving
+
+  - titles:
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       Tags🏷
+      ko-KR   : *KO
+    url: /archive.html
+
 
 daily:
   - title:      Mochalatte
     children:   
       - title : 첫인사
         url:    /daily/greeting
+      - title : Today I Learned
+        url:    /daily/TIL
 
+# machine learning list
+machine-learning:
+  - title:      Navigator
+    children:
+      - title:  머신러닝 (Machine Learning)
+        url:    /machine-learning/machine-learning
+      - title:  프로그래밍 (Programming)
+        url:    /programming/programming
+      - title:  수학 (Mathematics)
+        url:    /mathematics/mathematics
+  - title:     머신러닝
+    children:
+      - title: 머신러닝 (Machine Learning)
+        url:   /machine-learning/machine-learning
+
+# programming list
+programming:
+  - title:      Navigator
+    children:
+      - title:  머신러닝 (Machine Learning)
+        url:    /machine-learning/machine-learning
+      - title:  프로그래밍 (Programming)
+        url:    /programming/programming
+      - title:  수학 (Mathematics)
+        url:    /mathematics/mathematics
+  - title:      프로그래밍
+    children:
+      - title:  프로그래밍 (Programming)
+        url:    /programming/programming
+
+# mathematics list
+mathematics:
+  - title:      Navigator
+    children:
+      - title:  머신러닝 (Machine Learning)
+        url:    /machine-learning/machine-learning
+      - title:  프로그래밍 (Programming)
+        url:    /programming/programming
+      - title:  수학 (Mathematics)
+        url:    /mathematics/mathematics
+  - title:      수학
+    children:
+      - title:  수학 (Mathematics)
+        url:    /mathematics/mathematics
+
+# data-structure list
 data-structure:
-  - title:      자료구조
-    children:   
+  - title:      Navigator
+    children:
+      - title:  자료구조 (Data Structure)
+        url:    /data-structure/data-structure
+      - title:  알고리즘 (Algorithm)
+        url:    /algorithm/algorithm
+
+  - title:      자료구조 (Data Structure)
+    children:
       - title:  자료구조 (Data Structure)
         url:    /data-structure/data-structure
 
   - title:      기본 자료구조
-    children: 
+    children:
       - title:  링크드 리스트 (Linked List)
         url:    /data-structure/linked-list  
       - title:  스택 (Stack)
@@ -124,7 +163,15 @@ data-structure:
       - title:  힙 (Heap)
         url:    /data-structure/heap
 
+# algorithm list
 algorithm:
+  - title:      Navigator
+    children:
+      - title:  자료구조 (Data Structure)
+        url:    /data-structure/data-structure
+      - title:  알고리즘 (Algorithm)
+        url:    /algorithm/algorithm
+
   - title:     알고리즘
     children:
       - title: 알고리즘 (Algorithm)
@@ -134,9 +181,9 @@ algorithm:
     children:
       - title: 이분탐색 (Binary Search)
         url:   /algorithm/binary-search
-      - title: 너비우선탐색 (BFS; Breath First Search)
+      - title: 너비우선탐색 (BFS)
         url:   /algorithm/BFS
-      - title: 깊이우선탐색 (DFS; Depth First Search)
+      - title: 깊이우선탐색 (DFS)
         url:   /algorithm/DFS
 
   - title:     최단경로
@@ -155,23 +202,74 @@ algorithm:
       - title: 라빈-카프 알고리즘 (Rabin-Karp)
         url:   /algorithm/rabin-karp
 
+# PS list
 problem-solving:
-  - title:     PS (Problem Solving)
+  - title:     Navigator
+    children:
+      - title: Problem Solving
+        url:   /problem-solving/problem-solving
+      - title: BOJ
+        url:   /boj/boj
+      - title: Codeforces
+        url:   /codeforces/codeforces
+      - title: SWEA
+        url:   /swea/swea
+
+  - title:     Problem Solving
     children:
       - title: PS (Problem Solving)
         url:   /problem-solving/problem-solving
 
-  - title:     백준 온라인 저지 (BOJ)
+# BOJ list
+boj:
+  - title:     Navigator
     children:
-      - title: No. 1000 - 1999
-        url:   /problem-solving/boj-no-1000-1999
+      - title: Problem Solving
+        url:   /problem-solving/problem-solving
+      - title: BOJ - 백준
+        url:   /boj/boj
+      - title: Codeforces
+        url:   /codeforces/codeforces
+      - title: SWEA
+        url:   /swea/swea
 
-  - title:     코드포스 (Codeforces)
+  - title:     BOJ
     children:
-      - title:
+      - title: BOJ
+        url:   /boj/boj
 
-machine-learning:
-  - title:     머신러닝 (Machine Learning)
+# Codeforces list
+codeforces:
+  - title:     Navigator
     children:
-      - title: 머신러닝 (Machine Learning)
-        url:   /machine-learning/machine-learning
+      - title: Problem Solving
+        url:   /problem-solving/problem-solving
+      - title: BOJ
+        url:   /boj/boj
+      - title: Codeforces
+        url:   /codeforces/codeforces
+      - title: SWEA
+        url:   /swea/swea
+
+  - title:     Codeforces
+    children:
+      - title: Codeforces
+        url:   /codeforces/codeforces
+
+# SWEA list
+swea:
+  - title:     Navigator
+    children:
+      - title: Problem Solving
+        url:   /problem-solving/problem-solving
+      - title: BOJ
+        url:   /boj/boj
+      - title: Codeforces
+        url:   /codeforces/codeforces
+      - title: SWEA
+        url:   /swea/swea
+
+  - title:     SWEA
+    children:
+      - title: SWEA
+        url:   /swea/swea

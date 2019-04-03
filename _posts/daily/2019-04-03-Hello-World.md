@@ -2,7 +2,7 @@
 layout: article
 title: Hello, world!
 permalink: /daily/greeting
-key: algorithm-algorithm
+key: daily-
 tags: Daily
 
 header:
