@@ -48,7 +48,7 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       알고리즘🎓
       ko-KR   : *KO
-    url: /algorithm/algorithm/algorithm
+    url: /algorithm/algorithm
 
   - titles:
       en      : &EN       PS
