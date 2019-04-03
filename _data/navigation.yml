@@ -216,7 +216,7 @@ boj:
     children:
       - title: Problem Solving
         url:   /problem-solving/problem-solving
-      - title: BOJ - 백준
+      - title: BOJ
         url:   /boj/boj
       - title: Codeforces
         url:   /codeforces/codeforces
