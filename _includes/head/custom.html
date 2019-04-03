@@ -1,3 +1,21 @@
 <!-- start custom head snippets -->
 
+<!-- Spoqa Han Sans Font -->
+<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'>
+
+<!-- Open Graph -->
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+{% if page.image.feature %}
+<meta name="og:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+{% else %}
+<meta name="og:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
+{% endif %}
+
+{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+
 <!-- end custom head snippets -->
