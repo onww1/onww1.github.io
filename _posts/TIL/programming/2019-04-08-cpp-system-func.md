@@ -40,6 +40,7 @@ show_author_profile: true
 
 ---
 
+### C++ system 함수 들여다보기
 우선 `system` 함수는 `stdlib.h` 라이브러리를 include하면 사용을 할 수 있고, **prototype**은 다음과 같습니다.
 
 ```c++
@@ -63,15 +64,17 @@ int main(int argc, char *argv[]) {
 
 ---
 
+### 실제 사용 Case
+
 저는 이 함수를 이용하여 파일들의 위치를 바꾸고, `git`으로 `commit`까지 하도록 만들었습니다. 폴더를 정리하는 과정에서 비슷한 이름의 파일들이 매우 많았고, 그것들을 다른 폴더에 옮기면서 이름도 바꾸고, [Github](https://github.com/onww1)에 올리려고 했기 때문에 이와 같은 작업을 진행했습니다. 
 
----
+&nbsp;
 
 제가 작성했던 첫 번째 프로그램은 `bojxxxx.yyy`와 같이 `xxxx`라는 수와 `yyy`라는 확장자를 가진 파일에 대하여 `번호`와 `확장자`, `알고리즘 분류`, `문제 제목`을 주면 그 파일을 해당 알고리즘 분류 폴더로 이동시키고, 파일 이름을 `boj번호_문제_제목.확장자`와 같이 바꾸어서 `git`으로 `commit`을 시키는 것이었습니다. 
 
 [Source](https://github.com/onww1/TIL/blob/master/C%2B%2B/system_function/mv.cpp){:.button.button--outline-success.button--pill}{:target="_blank"}
 
----
+&nbsp;
 
 제가 작성했던 두 번째 프로그램은 한 문제를 여러 번 풀었을 때, `bojxxxx_z.yyy`와 같이 `xxxx`라는 문제 번호 뒤에 `_z`를 붙여서 표시를 했었는데 이 중에서 가장 마지막 것을 `bojxxxx.yyy`로 바꾸고 나머지 파일들은 모두 지우도록 하는 프로그램이었습니다. 
 
