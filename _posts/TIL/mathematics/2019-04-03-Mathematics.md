@@ -15,7 +15,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(0, 189, 128, .25), rgba(0, 128, 255, .3))'
-    src: /assets/images/post/background47.jpg
+    src: /assets/images/post/background/background47.jpg
 
 aside:
   toc: true
