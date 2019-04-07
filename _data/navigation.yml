@@ -101,10 +101,6 @@ machine-learning:
         url:    /programming/programming
       - title:  수학 (Mathematics)
         url:    /mathematics/mathematics
-  - title:     머신러닝
-    children:
-      - title: 머신러닝 (Machine Learning)
-        url:   /machine-learning/machine-learning
 
 # programming list
 programming:
@@ -116,10 +112,10 @@ programming:
         url:    /programming/programming
       - title:  수학 (Mathematics)
         url:    /mathematics/mathematics
-  - title:      프로그래밍
+  - title:      C / C++
     children:
-      - title:  프로그래밍 (Programming)
-        url:    /programming/programming
+      - title:  C++ system 함수 사용하기
+        url:    /programming/cpp-system-func
 
 # mathematics list
 mathematics:
@@ -129,10 +125,6 @@ mathematics:
         url:    /machine-learning/machine-learning
       - title:  프로그래밍 (Programming)
         url:    /programming/programming
-      - title:  수학 (Mathematics)
-        url:    /mathematics/mathematics
-  - title:      수학
-    children:
       - title:  수학 (Mathematics)
         url:    /mathematics/mathematics
 
