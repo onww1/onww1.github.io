@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
 
 ---
 
-제가 작성했던 두 번째 프로그램은 한 문제를 여러 번 풀었을 때, `bojxxxx_z.yyy`와 같이 `xxxx`라는 문제 번호 뒤에 `_z`를 붙여서 표현을 했었는데 이 중에서 가장 마지막 것을 `bojxxxx.yyy`로 바꾸고 나머지 파일들은 모두 지우도록 하는 프로그램이었습니다. 
+제가 작성했던 두 번째 프로그램은 한 문제를 여러 번 풀었을 때, `bojxxxx_z.yyy`와 같이 `xxxx`라는 문제 번호 뒤에 `_z`를 붙여서 표시를 했었는데 이 중에서 가장 마지막 것을 `bojxxxx.yyy`로 바꾸고 나머지 파일들은 모두 지우도록 하는 프로그램이었습니다. 
 
 [Source](https://github.com/onww1/TIL/blob/master/C%2B%2B/system_function/rm.cpp){:.button.button--outline-success.button--pill}{:target="_blank"}
 
