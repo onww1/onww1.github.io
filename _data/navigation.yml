@@ -195,11 +195,6 @@ problem-solving:
       - title: SWEA
         url:   /swea/swea
 
-  - title:     Problem Solving
-    children:
-      - title: PS (Problem Solving)
-        url:   /problem-solving/problem-solving
-
 # BOJ list
 boj:
   - title:     Navigator
@@ -212,11 +207,6 @@ boj:
         url:   /codeforces/codeforces
       - title: SWEA
         url:   /swea/swea
-
-  - title:     BOJ
-    children:
-      - title: BOJ
-        url:   /boj/boj
 
 # Codeforces list
 codeforces:
@@ -231,11 +221,6 @@ codeforces:
       - title: SWEA
         url:   /swea/swea
 
-  - title:     Codeforces
-    children:
-      - title: Codeforces
-        url:   /codeforces/codeforces
-
 # SWEA list
 swea:
   - title:     Navigator
@@ -246,10 +231,5 @@ swea:
         url:   /boj/boj
       - title: Codeforces
         url:   /codeforces/codeforces
-      - title: SWEA
-        url:   /swea/swea
-
-  - title:     SWEA
-    children:
       - title: SWEA
         url:   /swea/swea
