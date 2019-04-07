@@ -90,8 +90,6 @@ daily:
     children:   
       - title : 첫인사
         url:    /daily/greeting
-      - title : Today I Learned
-        url:    /daily/TIL
 
 # machine learning list
 machine-learning:
