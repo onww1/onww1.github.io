@@ -27,6 +27,12 @@ license: false
 ## Today I Learned : 프로그래밍
 <!--more-->
 
-> 프로그래밍에 대한 글들의 목록이 추가될 예정입니다.
+### C / C++
+
+* [C++ system 함수 사용하기](/programming/cpp-system-func)
+
+
+
+> 프로그래밍에 대한 글들의 목록이 계속 추가될 예정입니다.
 
 > Ex) C / C++, Java, Python, Web ...
