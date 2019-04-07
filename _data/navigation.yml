@@ -145,16 +145,16 @@ data-structure:
       - title:  알고리즘 (Algorithm)
         url:    /algorithm/algorithm
 
-  - title:      기본 자료구조
-    children:
-      - title:  링크드 리스트 (Linked List)
-        url:    /data-structure/linked-list  
-      - title:  스택 (Stack)
-        url:    /data-structure/stack
-      - title:  큐 (Queue)
-        url:    /data-structure/queue
-      - title:  힙 (Heap)
-        url:    /data-structure/heap
+  # - title:      기본 자료구조
+  #   children:
+  #     - title:  링크드 리스트 (Linked List)
+  #       url:    /data-structure/linked-list  
+  #     - title:  스택 (Stack)
+  #       url:    /data-structure/stack
+  #     - title:  큐 (Queue)
+  #       url:    /data-structure/queue
+  #     - title:  힙 (Heap)
+  #       url:    /data-structure/heap
 
 # algorithm list
 algorithm:
@@ -165,30 +165,30 @@ algorithm:
       - title:  알고리즘 (Algorithm)
         url:    /algorithm/algorithm
 
-  - title:     탐색
-    children:
-      - title: 이분탐색 (Binary Search)
-        url:   /algorithm/binary-search
-      - title: 너비우선탐색 (BFS)
-        url:   /algorithm/BFS
-      - title: 깊이우선탐색 (DFS)
-        url:   /algorithm/DFS
+  # - title:     탐색
+  #   children:
+  #     - title: 이분탐색 (Binary Search)
+  #       url:   /algorithm/binary-search
+  #     - title: 너비우선탐색 (BFS)
+  #       url:   /algorithm/BFS
+  #     - title: 깊이우선탐색 (DFS)
+  #       url:   /algorithm/DFS
 
-  - title:     최단경로
-    children:
-      - title: 다익스트라 알고리즘 (Dijkstra)
-        url:   /algorithm/dijkstra
-      - title: 벨만-포드 알고리즘 (Bellman-Ford)
-        url:   /algorithm/bellman-ford
-      - title: 플로이드-워셜 알고리즘 (Floyd-Warshall) 
-        url:   /algorithm/floyd-warshall 
+  # - title:     최단경로
+  #   children:
+  #     - title: 다익스트라 알고리즘 (Dijkstra)
+  #       url:   /algorithm/dijkstra
+  #     - title: 벨만-포드 알고리즘 (Bellman-Ford)
+  #       url:   /algorithm/bellman-ford
+  #     - title: 플로이드-워셜 알고리즘 (Floyd-Warshall) 
+  #       url:   /algorithm/floyd-warshall 
 
-  - title:     문자열
-    children:
-      - title: KMP 알고리즘
-        url:   /algorithm/kmp
-      - title: 라빈-카프 알고리즘 (Rabin-Karp)
-        url:   /algorithm/rabin-karp
+  # - title:     문자열
+  #   children:
+  #     - title: KMP 알고리즘
+  #       url:   /algorithm/kmp
+  #     - title: 라빈-카프 알고리즘 (Rabin-Karp)
+  #       url:   /algorithm/rabin-karp
 
 # PS list
 problem-solving:
