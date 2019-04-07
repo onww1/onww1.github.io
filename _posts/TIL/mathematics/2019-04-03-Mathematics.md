@@ -1,9 +1,9 @@
 ---
 layout: article
-title: 알고리즘 (Algorithm)
-permalink: /algorithm/algorithm
-key: algorithm-algorithm-algorithm
-tags: TIL 알고리즘
+title: 수학 (Mathematics)
+permalink: /mathematics/mathematics
+key: TIL-mathematics-mathematics
+tags: TIL 수학
 
 header:
   theme: dark
@@ -15,16 +15,19 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(0, 189, 128, .25), rgba(0, 128, 255, .3))'
-    src: /assets/images/post/background8.jpg
+    src: /assets/images/post/background47.jpg
 
 aside:
   toc: true
 sidebar:
-  nav: algorithm
+  nav: mathematics
 license: false
 ---
 
-## 알고리즘(Algorithm)이란?
+## Today I Learned : 수학
 <!--more-->
 
-빠른 시일 내에 자료를 올리도록 하겠습니다.
+> 수학에 대한 글들의 목록이 추가될 예정입니다.
+
+> Ex) 선형대수, 확률, 미적분, 정수론, ... (사실 불가능)
+

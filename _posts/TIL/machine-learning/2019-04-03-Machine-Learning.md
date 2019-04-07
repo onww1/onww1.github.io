@@ -24,11 +24,11 @@ sidebar:
 license: false
 ---
 
-## 머신러닝 (Machine Learning)
+## Today I Learned : 머신러닝
 <!--more-->
 
-### 머신러닝 TIL List
-* Perceptron
-* Tensorflow
-* Colab
-* Gradient Decent Method
+> 머신러닝에 대한 글들의 목록이 추가될 예정입니다.
+
+> Ex) Perceptron, Tensorflow, Colab, Gradient Decent Method ...
+
+> (열심히 해야 할 것 같네요..)

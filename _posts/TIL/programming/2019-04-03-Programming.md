@@ -1,9 +1,9 @@
 ---
 layout: article
-title: 자료구조 (Data Structure)
-permalink: /data-structure/data-structure
-key: algorithm-data-structure-data-structure
-tags: TIL 자료구조
+title: 프로그래밍 (Programming)
+permalink: /programming/programming
+key: TIL-programming-programming
+tags: TIL 프로그래밍
 
 header:
   theme: dark
@@ -15,16 +15,18 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(0, 189, 128, .25), rgba(0, 128, 255, .3))'
-    src: /assets/images/post/background8.jpg
+    src: /assets/images/post/background44.jpg
 
 aside:
   toc: true
 sidebar:
-  nav: data-structure
+  nav: programming
 license: false
 ---
 
-## 자료구조(Data Structure)란?
+## Today I Learned : 프로그래밍
 <!--more-->
 
-빠른 시일 내에 자료를 올리도록 하겠습니다.
+> 프로그래밍에 대한 글들의 목록이 추가될 예정입니다.
+
+> Ex) C / C++, Java, Python, Web ...

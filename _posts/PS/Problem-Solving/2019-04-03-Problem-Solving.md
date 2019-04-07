@@ -24,7 +24,11 @@ sidebar:
 license: false
 ---
 
-## PS(Problem Solving)란?
+## PS (Problem Solving)
 <!--more-->
 
-빠른 시일 내에 자료를 올리도록 하겠습니다.
+**PS**는 **Problem Solving**의 약자로, 알고리즘을 활용하여 문제를 해결하는 것을 의미합니다.
+
+이곳에 PS와 관련하여 알고 있으면 좋은 것들에 대하여 정리합니다.
+
+> 내용은 준비중입니다.

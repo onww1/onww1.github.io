@@ -1,9 +1,9 @@
 ---
 layout: article
-title: 수학 (Mathematics)
-permalink: /mathematics/mathematics
-key: TIL-mathematics-mathematics
-tags: TIL 수학
+title: 알고리즘 (Algorithm)
+permalink: /algorithm/algorithm
+key: algorithm-algorithm-algorithm
+tags: TIL 알고리즘
 
 header:
   theme: dark
@@ -15,18 +15,18 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(0, 189, 128, .25), rgba(0, 128, 255, .3))'
-    src: /assets/images/post/background47.jpg
+    src: /assets/images/post/background8.jpg
 
 aside:
   toc: true
 sidebar:
-  nav: mathematics
+  nav: algorithm
 license: false
 ---
 
-## 수학(Mathematics)
+## 알고리즘 (Algorithm)
 <!--more-->
 
-### 수학 TIL List
-* 머신러닝에서 필요한 수학 (선형대수, 확률, 미적분, ...)
-* 알고리즘에서 필요한 수학 (정수론, ...)
+> 알고리즘에 대한 글들이 추가될 예정입니다.
+
+> Ex) 탐색, 최단경로, 문자열, ...
