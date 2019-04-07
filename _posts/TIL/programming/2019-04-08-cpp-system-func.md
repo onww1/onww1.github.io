@@ -3,7 +3,7 @@ layout: article
 title: C++ system 함수 사용하기
 permalink: /programming/cpp-system-func
 key: TIL-programming-cpp-system-function
-tags: TIL 프로그래밍 C++
+tags: TIL 프로그래밍 C/C++
 
 header:
   theme: dark
