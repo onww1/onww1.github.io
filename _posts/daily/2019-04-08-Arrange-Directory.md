@@ -80,12 +80,12 @@ show_author_profile: true
 실제로 수업에서 했던 크롤링은 `selenium`을 사용했었던 것이기 때문에 이전보다는 수월하게 진행하였습니다. 로그인을 하고, 각 문제 별로 접근하여 **제목**과 **알고리즘 분류**를 가져왔습니다. 아래 사진이 테스트에 성공했던 모습입니다.
 
 #### [ 세 번째 접근 - Test 성공 ]
-![third_version_test](/assets/images/post/daily/crawling.png)
+![third_version_test](/assets/images/post/Daily/crawling.png)
 
 그래서 바로 이 크롤링 프로그램을 확장해서 `bojxxxx.yyy`와 같이 **문제 번호**와 **확장자**가 함께 적힌 파일명들을 한 번에 주면 순차적으로 크롤링하여 **문제 번호**, **확장자**, **제목**, **알고리즘 분류**가 나오도록 만들었습니다. 크롤링을 하여 나오는 출력은 앞에서 작성했던 C++ 프로그램의 **input**에서 요구하는 형태로 만들었습니다. 그렇게 만든 프로그램의 실행 형태는 다음과 같았습니다.
 
 #### [ 세 번째 접근 - 크롤링 ]
-![third_version_crawling](/assets/images/post/daily/crawling_files.png)
+![third_version_crawling](/assets/images/post/Daily/crawling_files.png)
 
 알고리즘 분류가 되어 있지 않은 문제들도 존재했기 때문에 그런 문제들은 어쩔 수 없이 직접 확인을 해야 했습니다. 하지만 문제 제목을 직접 타이핑하지 않아도 된다는 것, C++ 프로그램에 입력으로 넣어줄 형식이 어느 정도 갖춰져 있다는 점이 일의 능률을 충분히 올려주었습니다.
 
@@ -102,10 +102,10 @@ show_author_profile: true
 결과적으로 다음과 같이 깔끔한 디렉토리 상태로 만들 수 있게 되었습니다.
 
 #### [ 최종 결과 - 디렉토리 ]
-![final_1](/assets/images/post/daily/after_arrangment.png)
+![final_1](/assets/images/post/Daily/after_arrangment.png)
 
 #### [ 최종 결과 - Github ]
-![final_2](/assets/images/post/daily/github_status.png)
+![final_2](/assets/images/post/Daily/github_status.png)
 
 ---
 
