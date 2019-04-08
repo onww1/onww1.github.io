@@ -3,7 +3,7 @@ layout: article
 title: Selenium으로 크롤링하기
 permalink: /programming/py-crawling
 key: TIL-programming-py-crawling
-tags: TIL 프로그래밍 Python
+tags: TIL 프로그래밍 Python Crawling
 
 header:
   theme: dark
@@ -195,6 +195,8 @@ for index in range(len(problem_number)):
 우선 앞에서 했던 것처럼 `webdriver`를 사용하기 전에 해주어야 할 것들을 해주고 나서, `driver`를 통해서 **로그인 페이지**를 가져옵니다. 그런 다음 **로그인 폼**에 아이디와 비밀번호를 입력해주어야 하는데 이건 `driver`를 통해서 가능합니다. ID와 PW을 입력하는 `input` 태그를 보면 `name`이라는 attribute가 있는데 그것을 이용하여 해당 태그에 접근하고, `send_keys` 함수를 통해서 값을 전달하면 됩니다.
 
 ![input_tags](/assets/images/post/TIL/programming/input_tags.png)
+
+&nbsp;
 
 그리고 `CSS Selector`를 얻었던 것과 비슷하게 로그인 버튼의 `XPath`를 얻어서 그 경로를 이용하여 로그인 버튼에 접근하고 `click` 함수를 호출하면 로그인 버튼을 누르게 됩니다. 로그인을 하는 코드는 다음과 같습니다.
 ```python
