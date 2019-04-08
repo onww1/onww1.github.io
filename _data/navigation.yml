@@ -91,7 +91,7 @@ daily:
       - title : 첫인사
         url:    /daily/greeting
       - title : BOJ 디렉토리 정리
-        url:    /daily/arrange_directory
+        url:    /daily/arrange-directory
 
 # machine learning list
 machine-learning:

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: BOJ 디렉토리 정리
-permalink: /daily/arrange_directory
+permalink: /daily/arrange-directory
 key: daily-arrange-directory
 tags: Daily
 
