@@ -116,6 +116,10 @@ programming:
     children:
       - title:  C++ system 함수 사용하기
         url:    /programming/cpp-system-func
+  - title:      Python
+    children:
+      - title:  Selenium + BeautifulSoup4로 크롤링하기
+        url:    /programming/py-crawling
 
 # mathematics list
 mathematics:

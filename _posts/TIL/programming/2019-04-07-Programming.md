@@ -31,7 +31,9 @@ license: false
 
 * [C++ system 함수 사용하기](/programming/cpp-system-func)
 
+### Python
 
+* [Selenium + BeautifulSoup4로 크롤링하기](/programming/py-crawling)
 
 > 프로그래밍에 대한 글들의 목록이 계속 추가될 예정입니다.
 
