@@ -34,6 +34,7 @@ license: false
 ### Python
 
 * [Selenium + BeautifulSoup4로 크롤링하기](/programming/py-crawling)
+* [Requests + BeautifulSoup4로 크롤링하기](/programming/py-crawling-2)
 
 > 프로그래밍에 대한 글들의 목록이 계속 추가될 예정입니다.
 

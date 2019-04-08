@@ -120,6 +120,8 @@ programming:
     children:
       - title:  Selenium + BeautifulSoup4로 크롤링하기
         url:    /programming/py-crawling
+      - title:  Requests + BeautifulSoup4로 크롤링하기
+        url:    /programming/py-crawling-2
 
 # mathematics list
 mathematics:
